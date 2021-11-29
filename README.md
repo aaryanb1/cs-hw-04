@@ -34,10 +34,10 @@ NOTE: the number valid_comments is what will be used to determine your extra cre
 - (**2 points**) I did Optional Task 6 as seen with the file <code>extra_credit_6.py</code>. Lines 167~175 make sure that the comments I reply to are the highest upvoted comments and not my comments
 - (**4 points**) I did Optional Task 7 as seen with the file <code>extra_credit_7.py</code>. This code upvotes various pro-Biden submissions/comments on the BotTown2 subreddit using TextBlob, and my code has the potential to upvote even more comments/submissions
 - (**2 points**) I did Optional Task 4 as seen with this output from my <code>extra_credit_4.py</code> file wherein I went much above 200 submissions (self posts and some link posts)
-    ```reposted posts and comments = 406
-    reposted posts and comments = 407
-    reposted posts and comments = 408
-    reposted posts and comments = 409
-    reposted posts and comments = 410
-    reposted posts and comments = 411
-    ```
+        ```reposted posts and comments = 406
+        reposted posts and comments = 407
+        reposted posts and comments = 408
+        reposted posts and comments = 409
+        reposted posts and comments = 410
+        reposted posts and comments = 411
+        ```
