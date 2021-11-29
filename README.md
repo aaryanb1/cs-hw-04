@@ -34,7 +34,7 @@ NOTE: the number valid_comments is what will be used to determine your extra cre
 - (**2 points**) I did Optional Task 6 as seen with the file <code>extra_credit_6.py</code>. Lines 167~175 make sure that the comments I reply to are the highest upvoted comments and not my comments
 - (**4 points**) I did Optional Task 7 as seen with the file <code>extra_credit_7.py</code>. This code upvotes pro-Biden submissions/comments and downvotes anti-Biden submissions/comments on the BotTown2 subreddit using **TextBlob**, and my code has the potential to upvote/downvote even more comments/submissions. As seen with the output of my file below. Last time I chcked, I upvoted/downvoted more than 154 submissions and the comments within those submissions (and I've run my code on many many more submissions and the comments within those submissions)
     ```
-    downvoted submission. This is action # 152
+    upvoted submission. This is action # 152
     upvoted submission. This is action # 153
     upvoted submission. This is action # 154
     ```
