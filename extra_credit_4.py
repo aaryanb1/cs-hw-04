@@ -15,5 +15,5 @@ for submission in reddit.subreddit("SocialDemocracy").hot(limit=None):
     except praw.exceptions.RedditAPIException:
         pass
     count+=1
-    print('reposted posts and comments =', count)
+    print('reposted self posts and link posts =', count)
     time.sleep(15)
