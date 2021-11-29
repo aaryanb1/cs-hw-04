@@ -32,7 +32,12 @@ NOTE: the number valid_comments is what will be used to determine your extra cre
 - (**4 points**) I did Optional Task 1 and Optional Task 2 (100 valid comments & 500 valid comments posted...)
     - (**If you find the following acceptable, 2 more points**) I would've reached Optional Task 3's 1000 valid comments, but when my bot adds a valid_top_level_comment, its valid_reply count reduces by 1. Thus the valid_comments amount just stabilizes at 838. This is similar to the issues from [here](https://github.com/mikeizbicki/cmc-csci040/issues/198) and [here](https://github.com/mikeizbicki/cmc-csci040/issues/53). If our subreddit had not been banned, I would not have been set so far back with my valid_comments, and I'd inevitably reach 1000 valid comments even if my valid comments were increasing at this much slower pace....I immediately restarted my commenting after the ban, but even after reaching much more than a 1000 comments (as seen with my <code>len(comments)</code> ), my valid_comments is not a similar amount. 
 - (**2 points**) I did Optional Task 6 as seen with the file <code>extra_credit_6.py</code>. Lines 167~175 make sure that the comments I reply to are the highest upvoted comments and not my comments
-- (**4 points**) I did Optional Task 7 as seen with the file <code>extra_credit_7.py</code>. This code upvotes pro-Biden submissions/comments and downvotes anti-Biden submissions/comments on the BotTown2 subreddit using **TextBlob**, and my code has the potential to upvote/downvote even more comments/submissions
+- (**4 points**) I did Optional Task 7 as seen with the file <code>extra_credit_7.py</code>. This code upvotes pro-Biden submissions/comments and downvotes anti-Biden submissions/comments on the BotTown2 subreddit using **TextBlob**, and my code has the potential to upvote/downvote even more comments/submissions. As seen with the output of my file below. Last time I chcked, I upvoted/downvoted more than 154 submissions and the comments within those submissions (and I've run my code on many many more submissions and the comments within those submissions)
+    ```
+    downvoted submission. This is action # 152
+    upvoted submission. This is action # 153
+    upvoted submission. This is action # 154
+    ```
 - (**2 points**) I did Optional Task 4 as seen with this output from my <code>extra_credit_4.py</code> file wherein I went much above 200 submissions (some self posts and some link posts)
     ```reposted self posts and link posts = 406
     reposted self posts and link posts = 407
