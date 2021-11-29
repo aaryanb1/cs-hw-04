@@ -19,7 +19,7 @@ while True:
     if ("biden" in text_of_submission.lower() and text_of_submission.sentiment.polarity<-0.6):
         the_submission.downvote()
         count+=1
-        print("upvoted submission. This is action #", count)
+        print("downvoted submission. This is action #", count)
     the_submission.comments.replace_more(limit=None)
     all_comments = the_submission.comments.list()
     print("len_all_comments =", len(all_comments))
@@ -32,5 +32,5 @@ while True:
         if ("biden" in text_of_comment.lower() and text_of_comment.sentiment.polarity<-0.6):
             comment.downvote()
             count+=1
-            print("upvoted submission. This is action #", count)
+            print("downvoted submission. This is action #", count)
     
